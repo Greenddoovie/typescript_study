@@ -1,8 +1,15 @@
 # typescript_study
-The playground of a Typescript for studying
+[GeeksForGeeks](GeeksForGeeks) 의 typescript roadmap에 기반하여 ts를 공부하는 repository이다.
 
-If you want to play in here, please make directory for your own.
-And then, play in there and push freely in your brnach.
-You can make a pull request if you want to record in main but, you have to receive approval from someone.
+## 방식
+1) 주에 2개의 큰 주제를 공부 후 의견을 나눈다.
+2) 주에 3개의 [Leetcode](LeetCode] typescript easy 문제를 풀이한다
+  - 정답률 오름차순 정렬 후 구독전용 문제를 제외하고 푼다.
+  - 풀이 한 문제의 코드는 repo에 push한다. 
 
-* All languagues are available in your branch
+
+
+
+<!-- Refererence Links -->
+[GeeksForGeeks]: https://www.geeksforgeeks.org/blogs/typescript-roadmap/
+[LeetCode]: https://leetcode.com/problemset/all-code-essentials/
