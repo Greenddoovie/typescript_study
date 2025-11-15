@@ -37,3 +37,12 @@ Despite its advantages, TypeScript has some limitations:
 - Learning Curve: Developers need to learn types, generics, and advanced concepts.
 - Configuration Complexity: Large projects may require detailed tsconfig.json setup.
 - Extra Build Step: Adds a slower feedback loop compared to plain JavaScript.
+
+## Importance of understanding difference between JS and TS
+
+TS is a superset of JS which contains additional features.
+Therefore the learning curve is higher than JS language.
+
+You must consider the project's scale and maintenance when developing sth.
+- To check prototype quickly, JS is recommended option
+- To develop safe product, TS is recommended option
