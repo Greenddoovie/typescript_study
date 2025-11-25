@@ -37,3 +37,19 @@ type ErrorState = {
 
 type ApiState = IdleState | LoadingState | SuccessState | ErrorState;
 ```
+
+## Advanced Usage
+
+Makes Status keys types a union type and Get the Status values' type as a union.
+This is possible by making the literal type in Status value with `as const`
+
+```typescript
+const Status {
+  'idle': 0,
+  'loading': 1,
+  'success': 2,
+  'failure': 3
+} as const
+
+type Status = typeof Status[keyof typeof Status]
+```
